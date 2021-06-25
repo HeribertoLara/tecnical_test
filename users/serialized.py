@@ -7,3 +7,9 @@ class UserSerializer(ModelSerializer):
     class Meta:
         model = User
         fields = '__all__'
+
+"""class AddressUserSerializer(ModelSerializer):
+
+    class Meta:
+        model = User
+        fields = ('addres')"""
